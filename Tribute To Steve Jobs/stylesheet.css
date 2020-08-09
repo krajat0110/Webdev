@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+}
+section{
+    box-sizing: border-box;
+ 
+}
+img{
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.header h1{
+    color: #ffffff;
+    font-size: 50px;
+    background: fixed;
+    font-family: 'Philosopher', sans-serif;
+    background-image: url(./images/steve_jobsimg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+
+
+    
+}
+.header h1:hover{
+    color: #000000;
+    background-repeat: no-repeat;
+    
+    background-image: url(./images/young_steve_landscape.jpg);
+    transition-duration: 1.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.quote{
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+.subsection-header{
+    width: 70%;
+    text-align: center;
+    font-size: 50px;
+    margin: 30px;
+    color:  #ececec;
+}
+
+#content{
+ display: flex;
+ justify-content: space-around;
+}
+#main-content{
+    flex:300%;
+    box-sizing: border-box;
+    padding: 40px;
+    font-size: 18px;
+   
+}
+#side-content{
+   flex:150%;
+   margin: 0 auto;
+   padding: 40px;
+   box-sizing: border-box;
+   
+}
+#nutshell{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: right;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+th{
+    padding-right: 20px ;
+}
+
+.event-date{
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    text-align: left;
+    width: 100px;
+    height: 30px;
+    border-top: 2px solid #ccc;
+
+}
+.event-desc{
+   padding: 8px;
+   text-align: left;
+   overflow: auto;
+   padding-top: 0;
+   border-top: 2px solid #ccc;
+
+}
+.footer div{
+    text-align: center;
+    background-color: #ececec;
+    height: 200px;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+.footer div a{
+    color:dodgerblue;
+    text-decoration:none;
+}
+.footer div a:hover{
+    color: crimson;
+    text-decoration: transparent;
+}
